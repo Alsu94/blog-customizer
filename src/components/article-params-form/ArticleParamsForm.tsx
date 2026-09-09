@@ -76,6 +76,8 @@ export const ArticleParamsForm = ({ onApply }: ArticleParamsFormProps) => {
 			backgroundColor: fontBackgroundColor,
 			contentWidth: fontWidthArr,
 		});
+
+		setToggleBtn(false);
 	};
 
 	return (
