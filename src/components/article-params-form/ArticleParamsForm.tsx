@@ -64,6 +64,8 @@ export const ArticleParamsForm = ({ onApply }: ArticleParamsFormProps) => {
 		setFontWidthArr(defaultArticleState.contentWidth);
 
 		onApply(defaultArticleState);
+
+		setToggleBtn(false);
 	};
 
 	const handleSubmit = (event: React.FormEvent) => {
